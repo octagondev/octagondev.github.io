@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About VOLTAGE</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px; /* Add padding for readability */
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+        .socials {
+            list-style-type: none;
+            padding: 0;
+        }
+        .socials li {
+            margin-bottom: 10px;
+        }
+        .socials li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>VOLTAGE (v0lt)</h1>
+        <p>VOLTAGE comprises a trio mainly passionate about video games. Our focus lies in repacking cracked games and cheating in titles like CS2, among many others. You can find us on Telegram and Discord for collaboration and updates. While we currently only share torrents on speed.cd, we're striving to expand to FileList.io. Stay tuned for our latest developments!</p>
+        
+        <h2>Socials:</h2>
+        <ul class="socials">
+            <li><a href="https://t.me/teamvoltage" target="_blank">Telegram: https://t.me/teamvoltage</a></li>
+            <p>Discord (phnm): @trasuvb</p>
+            <p>Discord (squash): @britishsquash</p>
+            <p>Discord (serban): @serbaeok</p>
+        </ul>
+    </div>
+</body>
+</html>

@@ -14,17 +14,17 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-            overflow: hidden; /* Hides the overflow to prevent horizontal scrolling */
+            overflow: hidden;
         }
         .logo-container {
-            flex: 1; /* Takes up remaining vertical space */
+            flex: 1;
             display: flex;
             justify-content: center;
             align-items: center;
         }
         img {
-            max-width: 50%; /* Adjust the maximum width as needed */
-            max-height: 70vh; /* Adjust the maximum height as needed */
+            max-width: 50%;
+            max-height: 70vh;
             user-select: none;
         }
         .button-container {
@@ -44,7 +44,7 @@
             outline: none;
         }
         .button:hover {
-            color: #aaa; /* Change color on hover */
+            color: #aaa;
         }
         .top-left-button {
             position: absolute;
@@ -60,7 +60,7 @@
 
     <div class="button-container">
         <a href="/aboutus.html" class="button top-left-button">About VOLTAGE</a>
-        <a href="https://steamcommunity.com/id/phnmxox" class="button" target="_blank">phnm</a>
+        <a href="https://steamcommunity.com/id/phnmhvh" class="button" target="_blank">phnm</a>
         <a href="https://steamcommunity.com/profiles/76561198928347788" class="button" target="_blank">squags</a>
         <a href="https://steamcommunity.com/profiles/76561198889358706" class="button" target="_blank">serban</a>
 		<a href="https://steamcommunity.com/profiles/76561199517803161" class="button" target="_blank">ilumi</a>
@@ -68,7 +68,6 @@
     </div>
 
     <script>
-        // JavaScript code to dynamically update the website tab title
         const titleText = "VOLTAGE";
         let index = 0;
         let expanding = true;
@@ -87,7 +86,7 @@
             }
             const newText = titleText.substring(0, index) || " ";
             document.title = newText;
-        }, 500); // Adjust the interval as needed for desired speed
+        }, 500);
     </script>
 </body>
 </html>
